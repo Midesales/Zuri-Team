@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Averta, sans-serif;
+}
+hr {
+    border: 0.7px solid #514949;
+    margin: 32px;
+    opacity: 0.2;
+}
+.first-section {
+    background-image: url(images/hero-bg.svg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+
+.first-section a {
+    text-decoration: none;
+    color: #E7332B;
+}
+.learn__container {
+    text-align: center;
+}
+.learn__container h2 {
+    margin-bottom: 60px;
+    font-size: 32px;
+    line-height: 1.5;
+} 
+.learn__container p {
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+.img__container {
+    display: flex;
+    padding-top: 75px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: inherit;
+}
+.box a {
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 300px;
+    border: 1px solid #E7332B;
+    font-weight: 500;
+}
+.box a:active,
+.box a:focus  {
+    border: 2px solid black;
+}
+
+.space {
+    width: 20px;
+}
+.second__section h3 {
+    color: #E7332B;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 70px;
+    font-weight: 520;
+}
+.second__section p {
+    text-align: center;
+    font-family: inherit;
+    color: #514949;
+    font-size: 24px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.container {
+    display: flex;
+}
+.rows {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.rows div {
+    text-align: left;
+    margin-left: 10px;
+    background-color: #FFFAFA;;
+}
+.rows div p {
+    text-align: left;
+    font-size: 16px;
+    font-family: inherit;
+    margin-bottom: 32px;
+}
+.rows img {
+    margin-top: 15px;
+}
+.rows a {
+    text-decoration: none;
+    color: #E7332B;
+}
+.left-content {
+    position: relative;
+    text-align: left;
+}
+.left-content img {
+    margin-bottom: 58px;
+}
+.left-bmv {
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+    width: 100%;
+}
+.right-content {
+    position: relative;
+    width: 100%;
+}
+.right-content img {
+    vertical-align: middle;
+}
+.right-bmv {
+    position: absolute;
+    width: 100%;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+    width: 100%;
+}
+.style {
+    padding: 61px 47px 82px 36px;
+    background-color: #FFFAFA;
+}
+.footer-links {
+    padding: 20px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* vertical-align: middle; */
+}
+.footer-links a {
+    text-decoration: none;
+    color: #E7332B;
+}
+.footer-links h2 {
+    font-size: 14px;
+    color: #514949;
+    font-family: inherit;
+    margin-top: 0
+}
+.footer-links p {
+    font-size: 14px;
+    color: #514949;
+    font-family: inherit;
+    /* line-height: 2; */
+}
+.fifth-box {
+    margin-right: 80px;
+}
+.fifth-box img {
+    vertical-align: middle;
+    width: 15px;
+}
+.second {
+    margin-left: 50px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #514949;
+    padding-bottom: 100px;
+    line-height: 3;
+}
+
+#first__box {
+    background-color: #E7332B;
+    color: white;
+}
+#second__box {
+    color: #E7332B;
+}
+#first__box:hover {
+    background-color: white;
+    color: #E7332B;
+}
+#second__box:hover {
+    background-color: #E7332B;
+    color: white;
+}
+
+@media (max-width:785px) {
+    .img__container {
+    display: flex;
+    padding-top: 75px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 80px;
+    }
+    .learn__container {
+        text-align: center;
+    }
+    .box {
+        display: block;
+    }
+   .space {
+    height: 50px;
+   }
+   .second__section div {
+    display: block;
+   }
+   .left-bmv {
+    display: none;
+   }
+   .right-bmv {
+    display: none;
+   }
+   .rows div {
+    margin-bottom: 30px;
+   }
+   .footer-links {
+    padding: 20px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: block;
+    vertical-align: middle;
+    }
+    .second {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .second h2 {
+        font-size: 24px;
+    }
+    .fifth-box {
+        text-align: center;
+        margin-right: 0;
+    }
+}
